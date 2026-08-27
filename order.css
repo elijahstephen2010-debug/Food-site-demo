@@ -23,7 +23,7 @@ body {
 header {
     width: 100%;
     min-height: 70px;
-    background: #ffffff;
+    background: black;
 
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ nav ul {
 }
 
 nav a {
-    color: #333;
+    color: white;
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;

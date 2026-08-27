@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Update Specials</title>
+
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+<header>
+
+    <a href="index.html" class="logo">
+        Update <span>Specials</span>
+    </a>
+
+    <button
+        type="button"
+        class="menu-toggle"
+        id="menuToggle">
+        ☰
+    </button>
+
+    <nav id="mainNav">
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+
+            <li>
+                <a href="order.html">
+                    Order
+                    <span class="cart-badge" id="cartCount">0</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="checkout.html">Checkout</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="checkout-header">
+
+        <div class="section-tag">
+            FINAL STEP
+        </div>
+
+        <h1>Checkout</h1>
+
+        <p>
+            Complete your details and send your order to us on WhatsApp.
+        </p>
+
+    </section>
+
+
+    <section class="checkout-container">
+
+
+        <!-- ==============================
+             CHECKOUT FORM
+        =============================== -->
+
+        <div class="checkout-form">
+
+
+            <!-- CUSTOMER INFORMATION -->
+
+            <div class="form-section">
+
+                <h2>👤 Customer Information</h2>
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="fullName">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Enter your full name"
+                        >
+
+                        <small
+                            class="error"
+                            id="nameError">
+                        </small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        >
+
+                        <small
+                            class="error"
+                            id="emailError">
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DELIVERY INFORMATION -->
+
+            <div class="form-section">
+
+                <h2>📍 Delivery Information</h2>
+
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Delivery Address
+                    </label>
+
+                    <input
+                        type="text"
+                        id="address"
+                        placeholder="Enter your delivery address"
+                    >
+
+                    <small
+                        class="error"
+                        id="addressError">
+                    </small>
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="city">
+                            City
+                        </label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="Enter your city"
+                        >
+
+                        <small
+                            class="error"
+                            id="cityError">
+                        </small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Enter your phone number"
+                        >
+
+                        <small
+                            class="error"
+                            id="phoneError">
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ORDER METHOD -->
+
+            <div class="form-section">
+
+                <h2>💬 Order Method</h2>
+
+                <div class="whatsapp-info">
+
+                    <span class="whatsapp-icon">
+                        💬
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Order through WhatsApp
+                        </strong>
+
+                        <p>
+                            Your order details will be prepared
+                            automatically and sent to the
+                            restaurant's WhatsApp chat.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- WHATSAPP LINK -->
+
+            <a
+                href="#"
+                class="place-order-btn"
+                id="placeOrder">
+
+                💬 Order via WhatsApp
+
+            </a>
+
+
+            <p
+                class="checkout-message"
+                id="checkoutMessage">
+            </p>
+
+        </div>
+
+
+        <!-- ==============================
+             ORDER SUMMARY
+        =============================== -->
+
+        <aside class="checkout-summary">
+
+            <h2>
+                Your Order 🛒
+            </h2>
+
+
+            <div
+                id="checkoutItems"
+                class="checkout-items">
+            </div>
+
+
+            <div class="summary-line">
+
+                <span>
+                    Subtotal
+                </span>
+
+                <span id="subtotal">
+                    ₦0
+                </span>
+
+            </div>
+
+
+            <div class="summary-line">
+
+                <span>
+                    Delivery
+                </span>
+
+                <span id="delivery">
+                    ₦500
+                </span>
+
+            </div>
+
+
+            <div class="summary-total">
+
+                <span>
+                    Total
+                </span>
+
+                <span id="total">
+                    ₦500
+                </span>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+</main>
+
+
+<script src="checkout.js"></script>
+
+</body>
+</html>
+```

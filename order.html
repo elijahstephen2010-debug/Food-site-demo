@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Order | Update Specials</title>
+
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+
+<header>
+
+    <a href="index.html" class="logo">
+        Update <span>Specials</span>
+    </a>
+
+    <button
+        type="button"
+        class="menu-toggle"
+        id="menuToggle">
+        ☰
+    </button>
+
+    <nav id="mainNav">
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+
+            <li>
+                <a href="order.html">
+                    Order
+                    <span class="cart-badge" id="cartCount">0</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="checkout.html">Checkout</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- PAGE HEADER -->
+
+    <section class="order-header">
+
+        <div class="section-tag">
+            YOUR CART
+        </div>
+
+        <h1>
+            Your Order 🛒
+        </h1>
+
+        <p>
+            Review your selected meals before checkout.
+        </p>
+
+    </section>
+
+
+    <!-- ORDER CONTENT -->
+
+    <section class="order-container">
+
+        <!-- ORDER ITEMS -->
+
+        <div
+            class="order-items"
+            id="orderItems">
+        </div>
+
+
+        <!-- ORDER SUMMARY -->
+
+        <aside class="order-summary">
+
+            <h2>
+                Order Summary
+            </h2>
+
+
+            <div class="summary-line">
+
+                <span>
+                    Subtotal
+                </span>
+
+                <span id="subtotal">
+                    ₦0
+                </span>
+
+            </div>
+
+
+            <div class="summary-line">
+
+                <span>
+                    Delivery
+                </span>
+
+                <span id="delivery">
+                    ₦500
+                </span>
+
+            </div>
+
+
+            <div class="summary-line total">
+
+                <span>
+                    Total
+                </span>
+
+                <span id="total">
+                    ₦500
+                </span>
+
+            </div>
+
+
+            <!-- CHECKOUT -->
+
+            <a
+                href="checkout.html"
+                class="checkout-btn"
+                id="checkoutBtn">
+
+                Proceed to Checkout
+
+            </a>
+
+
+            <!-- WHATSAPP -->
+
+            <button
+                type="button"
+                class="place-order-btn"
+                id="placeOrder">
+
+                💬 Order via WhatsApp
+
+            </button>
+
+        </aside>
+
+    </section>
+
+</main>
+
+
+<script src="order.js"></script>
+
+</body>
+</html>
+```

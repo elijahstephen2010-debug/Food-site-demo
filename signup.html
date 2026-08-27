@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Food Ordering</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+
+    <div class="auth-container">
+        <div class="auth-card">
+
+            <h1>Create Account</h1>
+            <p class="subtitle">Sign up to order your favorite food.</p>
+
+            <form id="signupForm">
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                    >
+                    <p id="nameError" class="error"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    >
+                    <p id="emailError" class="error"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Create a password"
+                    >
+                    <p id="passwordError" class="error"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirm your password"
+                    >
+                    <p id="confirmPasswordError" class="error"></p>
+                </div>
+
+                <button type="submit">Create Account</button>
+
+                <p id="successMessage" class="success"></p>
+
+            </form>
+
+            <p class="switch-page">
+                Already have an account?
+                <a href="login.html">Log in</a>
+            </p>
+
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
+```

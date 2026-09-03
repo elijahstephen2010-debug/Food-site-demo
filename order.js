@@ -29,7 +29,7 @@ const deliveryFee = 1000;
 //
 // Do NOT use +, spaces, brackets or the first 0.
 
-const whatsappNumber = "2348012345678";
+const whatsappNumber = "2347068055509";
 
 // ==========================================
 // FOOD MENU
@@ -505,7 +505,7 @@ if (placeOrderBtn) {
             // ------------------------------
 
             let message =
-                "Hello! I would like to place an order.\n\n";
+                "Hello! I Just placed an order .\n\n";
 
 
             let subtotal = 0;

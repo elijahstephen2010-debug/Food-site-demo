@@ -1,8 +1,3 @@
-
-// Restaurant WhatsApp number.
-// 08012345678 becomes 2348012345678
-// No +, spaces or dashes.
-
 const restaurantWhatsApp = "2347068055509";
 
 const deliveryFee = 500;
